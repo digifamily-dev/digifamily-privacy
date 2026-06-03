@@ -67,18 +67,69 @@
       margin-right: 8px;
       font-size: 16px;
     }
-    p { font-size: 15px; color: #3a3a38; margin-bottom: 14px; }
-    ul { margin: 0 0 14px 20px; }
-    ul li { font-size: 15px; color: #3a3a38; margin-bottom: 6px; }
-    .evidenza { background: var(--beige); border-radius: 12px; padding: 20px 24px; margin: 20px 0; }
+    p {
+      font-size: 15px;
+      color: #3a3a38;
+      margin-bottom: 14px;
+    }
+    ul {
+      margin: 0 0 14px 20px;
+    }
+    ul li {
+      font-size: 15px;
+      color: #3a3a38;
+      margin-bottom: 6px;
+    }
+    .evidenza {
+      background: var(--beige);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin: 20px 0;
+    }
+    .evidenza p { margin-bottom: 0; }
     a { color: var(--oro); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    footer { background: var(--dark); text-align: center; padding: 24px; color: #7A6E5E; font-size: 13px; border-top: 1px solid #3a3a38; }
+    footer {
+      background: var(--dark);
+      text-align: center;
+      padding: 24px;
+      color: #7A6E5E;
+      font-size: 13px;
+      border-top: 1px solid #3a3a38;
+    }
   </style>
 </head>
 <body>
 
 <header>
+  <svg width="90" height="90" viewBox="0 0 680 680" style="display:block;margin:0 auto 12px;" xmlns="http://www.w3.org/2000/svg">
+    <rect width="680" height="680" rx="120" fill="#2C2C2A"/>
+    <polygon points="340,120 140,320 540,320" fill="#C9A84C"/>
+    <rect x="175" y="310" width="330" height="240" rx="12" fill="#C9A84C"/>
+    <rect x="295" y="420" width="90" height="130" rx="10" fill="#2C2C2A"/>
+    <circle cx="224" cy="390" r="34" fill="#2C2C2A"/>
+    <circle cx="212" cy="382" r="5" fill="#C9A84C"/>
+    <circle cx="236" cy="382" r="5" fill="#C9A84C"/>
+    <path d="M212 400 Q224 412 236 400" stroke="#C9A84C" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <rect x="194" y="356" width="60" height="12" rx="6" fill="#2C2C2A"/>
+    <path d="M422 368 Q456 346 490 368 L492 400 Q480 418 456 422 Q432 418 420 400 Z" fill="#5a3e1b"/>
+    <path d="M422 370 Q412 390 416 410" stroke="#5a3e1b" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M490 370 Q500 390 496 410" stroke="#5a3e1b" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <circle cx="456" cy="390" r="34" fill="#2C2C2A"/>
+    <circle cx="444" cy="383" r="5" fill="#C9A84C"/>
+    <circle cx="468" cy="383" r="5" fill="#C9A84C"/>
+    <line x1="440" y1="375" x2="437" y2="370" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="444" y1="374" x2="443" y2="369" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="448" y1="375" x2="450" y2="370" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="464" y1="375" x2="461" y2="370" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="468" y1="374" x2="468" y2="369" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="472" y1="375" x2="475" y2="370" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M443 402 Q456 416 469 402" stroke="#C9A84C" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="340" cy="355" r="28" fill="#2C2C2A"/>
+    <circle cx="330" cy="348" r="4" fill="#C9A84C"/>
+    <circle cx="350" cy="348" r="4" fill="#C9A84C"/>
+    <path d="M330 364 Q340 374 350 364" stroke="#C9A84C" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  </svg>
   <h1>DigiFamily</h1>
   <p>Informativa sulla Privacy</p>
 </header>
@@ -90,60 +141,87 @@
   </div>
 
   <p>La presente Informativa sulla Privacy descrive come l'applicazione <strong>DigiFamily</strong>, sviluppata da Antonino Maisano, raccoglie, utilizza e protegge i dati personali degli utenti.</p>
+  <p>Utilizzando DigiFamily accetti le pratiche descritte in questa informativa.</p>
 
   <h2><span class="numero">1.</span>Titolare del trattamento</h2>
   <div class="evidenza">
     <p><strong>Antonino Maisano</strong><br>
+    Sviluppatore indipendente<br>
     Email: <a href="mailto:ninomaisa4@gmail.com">ninomaisa4@gmail.com</a></p>
   </div>
 
   <h2><span class="numero">2.</span>Dati raccolti</h2>
+  <p>DigiFamily raccoglie le seguenti categorie di dati:</p>
   <ul>
-    <li><strong>Dati di registrazione:</strong> Email e password (cifrata).</li>
-    <li><strong>Dati del profilo:</strong> Nome utente e avatar.</li>
-    <li><strong>Dati familiari:</strong> Membri inseriti dall'utente.</li>
-    <li><strong>Dati di utilizzo:</strong> Liste spesa, spese, promemoria medicine, eventi calendario, compiti e messaggi chat.</li>
-    <li><strong>Dati tecnici:</strong> Token Expo Push e identificativi del dispositivo (per la gestione degli annunci).</li>
-    <li><strong>Dati vocali:</strong> Input elaborato localmente per il riconoscimento dei comandi (non trasmesso né conservato).</li>
+    <li><strong>Dati di registrazione:</strong> indirizzo email e password (cifrata) per la creazione dell'account</li>
+    <li><strong>Dati del profilo:</strong> nome utente e icona avatar scelta dall'utente</li>
+    <li><strong>Dati familiari:</strong> nomi e icone dei membri della famiglia inseriti dall'utente</li>
+    <li><strong>Dati di utilizzo:</strong> lista della spesa, spese familiari, medicine, eventi del calendario, compiti assegnati, messaggi della chat familiare</li>
+    <li><strong>Dati tecnici:</strong> Token Expo Push (per notifiche) e identificativi del dispositivo (per la gestione di annunci pubblicitari)</li>
+    <li><strong>Dati vocali:</strong> input audio elaborato localmente sul dispositivo per il riconoscimento vocale dei comandi (non viene trasmesso né conservato)</li>
   </ul>
 
   <h2><span class="numero">3.</span>Finalità del trattamento</h2>
+  <p>I dati raccolti vengono utilizzati esclusivamente per:</p>
   <ul>
-    <li>Fornire e sincronizzare le funzionalità dell'app.</li>
-    <li>Inviare notifiche push per attività e promemoria.</li>
-    <li>Autenticare l'utente.</li>
-    <li>Generare ricette tramite IA (su esplicita richiesta).</li>
-    <li>Mostrare annunci pubblicitari pertinenti tramite fornitori terzi.</li>
+    <li>Fornire e mantenere le funzionalità dell'applicazione</li>
+    <li>Sincronizzare i dati familiari tra i dispositivi dei membri della famiglia</li>
+    <li>Inviare notifiche push relative alle attività familiari (messaggi, compiti, promemoria medicine)</li>
+    <li>Autenticare l'utente e mantenere la sessione attiva</li>
+    <li>Generare ricette tramite intelligenza artificiale su richiesta esplicita dell'utente</li>
+    <li>Mostrare annunci pubblicitari pertinenti tramite fornitori terzi</li>
   </ul>
 
-  <h2><span class="numero">4.</span>Modalità del trattamento</h2>
-  <p>I dati sono protetti tramite cifratura (HTTPS) e archiviati su server europei (Supabase). L'utente può richiedere la cancellazione dei dati in qualsiasi momento contattando il titolare.</p>
+  <h2><span class="numero">4.</span>Modalità del trattamento e conservazione</h2>
+  <p>I dati vengono conservati in modo sicuro su <strong>Supabase</strong> (infrastruttura cloud con server in Europa), un servizio di database conforme alle normative GDPR. La connessione tra l'app e i server avviene tramite protocollo HTTPS cifrato.</p>
+  <p>I dati vengono conservati per tutta la durata dell'utilizzo dell'app. L'utente può richiedere la cancellazione dei propri dati in qualsiasi momento contattando l'indirizzo email del titolare.</p>
 
   <h2><span class="numero">5.</span>Condivisione con terze parti</h2>
-  <p>DigiFamily non vende dati a terzi. I dati sono condivisi esclusivamente con partner tecnici necessari al servizio:</p>
+  <p>DigiFamily non vende né cede i dati personali a terze parti per scopi commerciali. I dati vengono condivisi esclusivamente con i seguenti fornitori di servizi tecnici necessari al funzionamento dell'app:</p>
   <ul>
-    <li><strong>Supabase Inc.</strong> - archiviazione dati e autenticazione.</li>
-    <li><strong>Expo</strong> - gestione notifiche push.</li>
-    <li><strong>Groq Inc.</strong> - elaborazione IA (solo per il testo della ricetta).</li>
-    <li><strong>Pexels</strong> - immagini ricette.</li>
-    <li><strong>Network Pubblicitario (es. Google AdMob)</strong> - potrebbe raccogliere identificativi del dispositivo per mostrare annunci, nel rispetto delle impostazioni sulla privacy e della normativa vigente per i minori.</li>
+    <li><strong>Supabase Inc.</strong> - archiviazione dati e autenticazione</li>
+    <li><strong>Expo / Expo Push Service</strong> - invio notifiche push</li>
+    <li><strong>Groq Inc.</strong> - elaborazione richieste AI per la generazione di ricette (viene trasmesso solo il nome della ricetta richiesta)</li>
+    <li><strong>Pexels</strong> - recupero immagini fotografiche delle ricette</li>
+    <li><strong>Network Pubblicitario (es. Google AdMob)</strong> - potrebbe raccogliere identificativi del dispositivo per mostrare annunci, nel rispetto delle impostazioni sulla privacy e della normativa vigente per gli utenti minorenni</li>
   </ul>
+  <p>I dati condivisi con questi fornitori sono limitati allo stretto necessario per il funzionamento del servizio.</p>
 
-  <h2><span class="numero">6.</span>Minori e utenti adolescenti (13-17 anni)</h2>
-  <p>L'applicazione è destinata all'uso familiare. Gli utenti di età compresa tra i 13 e i 17 anni possono utilizzare l'app, ma il trattamento dei loro dati avviene in conformità con la normativa vigente. Per i minori di 13 anni, i dati devono essere gestiti esclusivamente da un genitore o tutore. L'app è configurata per limitare la personalizzazione degli annunci in conformità alle politiche di Google per il trattamento dei dati dei minori.</p>
+  <h2><span class="numero">6.</span>Permessi richiesti</h2>
+  <p>DigiFamily richiede i seguenti permessi sul dispositivo:</p>
+  <ul>
+    <li><strong>Notifiche:</strong> per inviare promemoria medicine e aggiornamenti familiari</li>
+    <li><strong>Microfono:</strong> per il riconoscimento vocale dei comandi (opzionale, attivabile dall'utente)</li>
+  </ul>
+  <p>Tutti i permessi possono essere revocati in qualsiasi momento dalle impostazioni del dispositivo.</p>
 
-  <h2><span class="numero">7.</span>Dati Sensibili</h2>
-  <p>Le informazioni relative ai promemoria "medicine" sono gestite esclusivamente dall'utente nell'account privato e non vengono utilizzate per finalità mediche o diagnostiche da parte dell'app.</p>
+  <h2><span class="numero">7.</span>Diritti dell'utente</h2>
+  <p>In conformità al Regolamento Europeo sulla Protezione dei Dati (GDPR), l'utente ha il diritto di:</p>
+  <ul>
+    <li>Accedere ai propri dati personali</li>
+    <li>Rettificare dati inesatti o incompleti</li>
+    <li>Richiedere la cancellazione dei propri dati</li>
+    <li>Opporsi al trattamento dei propri dati</li>
+    <li>Richiedere la portabilità dei dati</li>
+  </ul>
+  <p>Per esercitare questi diritti, contatta: <a href="mailto:ninomaisa4@gmail.com">ninomaisa4@gmail.com</a></p>
 
-  <h2><span class="numero">8.</span>Diritti dell'utente (GDPR)</h2>
-  <p>L'utente ha diritto di accedere, rettificare o cancellare i propri dati. Per esercitare tali diritti: <a href="mailto:ninomaisa4@gmail.com">ninomaisa4@gmail.com</a></p>
+  <h2><span class="numero">8.</span>Minori e utenti adolescenti (13-17 anni)</h2>
+  <p>DigiFamily è un'applicazione destinata alla gestione familiare. Gli utenti tra i 13 e i 17 anni possono utilizzare l'app, ma il trattamento dei loro dati avviene in conformità con la normativa vigente. Per i minori di 13 anni, i dati devono essere gestiti esclusivamente da un genitore o tutore. L'app è configurata per limitare la personalizzazione degli annunci in conformità alle politiche di Google per il trattamento dei dati dei minori.</p>
 
-  <h2><span class="numero">9.</span>Sicurezza</h2>
-  <p>Adottiamo misure tecniche adeguate, inclusa la cifratura delle password e comunicazioni HTTPS.</p>
+  <h2><span class="numero">9.</span>Dati Sensibili</h2>
+  <p>Le informazioni relative ai promemoria "medicine" sono inserite e gestite esclusivamente dall'utente all'interno dell'account privato. Tali dati non vengono utilizzati per finalità mediche, diagnostiche o commerciali.</p>
 
-  <h2><span class="numero">10.</span>Contatti</h2>
+  <h2><span class="numero">10.</span>Sicurezza</h2>
+  <p>Adottiamo misure tecniche adeguate per proteggere i dati personali da accessi non autorizzati, tra cui cifratura delle password, comunicazioni HTTPS e accesso ai dati limitato tramite autenticazione.</p>
+
+  <h2><span class="numero">11.</span>Modifiche alla presente informativa</h2>
+  <p>Ci riserviamo il diritto di aggiornare questa informativa. In caso di modifiche sostanziali, l'utente verrà informato tramite notifica nell'app. La data di ultimo aggiornamento è indicata in cima a questa pagina.</p>
+
+  <h2><span class="numero">12.</span>Contatti</h2>
   <div class="evidenza">
-    <p>Per domande sulla privacy, scrivi a: <a href="mailto:ninomaisa4@gmail.com">ninomaisa4@gmail.com</a></p>
+    <p>Per qualsiasi domanda relativa alla privacy o per esercitare i tuoi diritti, scrivi a:<br>
+    <a href="mailto:ninomaisa4@gmail.com">ninomaisa4@gmail.com</a></p>
   </div>
 
 </div>
